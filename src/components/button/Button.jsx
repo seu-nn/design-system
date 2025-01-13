@@ -22,7 +22,7 @@ const Button = ({ variant, size, backgroundColor, labelColor, label, icon, iconP
 };
 
 Button.propTypes = {
-  variant: PropTypes.oneOf(['primary', 'secondary', 'link']),
+  variant: PropTypes.oneOf(['primary', 'secondary', 'link', 'destructive', 'warning']),
   size: PropTypes.oneOf(['compact', 'default', 'emphasized']),
   backgroundColor: PropTypes.string,
   labelColor: PropTypes.string,
