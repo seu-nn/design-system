@@ -184,6 +184,88 @@ export const SecondaryDisabledRightIcon = {
 };
 
 
+// Warning Button
+export const Warning = {
+  args: {
+    variant: 'warning',
+    size: "emphasized",
+    label: 'Warning Button',
+    icon:<img src={AddIconBlack} alt="Add Icon" style={{ width: '16px', height: '16px' }} />,
+    iconPosition: 'off',
+    disabled: false,
+    backgroundColor: "#FFBD34",
+    labelColor: "#14181F"
+  },
+};
+
+export const WarningLeftIcon = {
+  args: {
+    variant: "warning",
+    size: "emphasized",
+    backgroundColor: "#FFBD34",
+    labelColor: "#14181F",
+    label: "Warning Button",
+    icon: <img src={AddIconBlack} alt="Add Icon" style={{ width: '16px', height: '16px' }} />,
+    iconPosition: "left",
+    disabled: false
+  }
+};
+
+export const WarningRightIcon = {
+  args: {
+    variant: "warning",
+    size: "emphasized",
+    backgroundColor: "#FFBD34",
+    labelColor: "#14181F",
+    label: "Warning Button",
+    icon: <img src={AddIconBlack} alt="Add Icon" style={{ width: '16px', height: '16px' }} />,
+    iconPosition: "right",
+    disabled: false
+  }
+};
+
+export const WarningDisabled = {
+  args: {
+    variant: "warning",
+    size: "emphasized",
+    backgroundColor: "#E1E4EB",
+    labelColor: "#A3ADC2",
+    label: "Warning Button",
+    icon: <img src={AddIconDis} alt="Add Icon" style={{ width: '16px', height: '16px' }} />,
+    iconPosition: "off",
+    disabled: true
+  }
+};
+
+export const WarningDisabledLeftIcon = {
+  args: {
+    variant: "warning",
+    size: "emphasized",
+    backgroundColor: "#E1E4EB",
+    labelColor: "#A3ADC2",
+    label: "Warning Button",
+    icon: <img src={AddIconDis} alt="Add Icon" style={{ width: '16px', height: '16px' }} />,
+    iconPosition: "left",
+    disabled: true
+  }
+};
+
+export const WarningDisabledRightIcon = {
+  args: {
+    variant: "warning",
+    size: "emphasized",
+    backgroundColor: "#E1E4EB",
+    labelColor: "#A3ADC2",
+    label: "Warning Button",
+    icon: <img src={AddIconDis} alt="Add Icon" style={{ width: '16px', height: '16px' }} />,
+    iconPosition: "right",
+    disabled: true
+  }
+};
+
+
+
+
 
 // Link Button
 export const Link = {

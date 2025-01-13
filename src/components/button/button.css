@@ -14,6 +14,7 @@
   display: inline-flex;
   align-items: center;
   gap: 12px;
+
 }
 
 .btn-icon {
@@ -102,5 +103,19 @@
   cursor: not-allowed;
   text-decoration: none !important;
   background-color: transparent !important;
+}
+
+/* .btn.warning {
+  box-shadow: 0px 1px 3px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 2px 0px rgba(0, 0, 0, 0.10) inset;
+  background-color: #FFBD34 !important;
+  color: #14181F !important;
+} */
+
+.btn.warning:hover {
+  background-color: #DE9B12 !important;
+}
+
+.btn.warning:active {
+  transform: scale(0.98);
 }
 
