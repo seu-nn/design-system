@@ -1,0 +1,106 @@
+@import url("https://assets.soracom.io/fonts/aeonik/Aeonik.css");
+
+/* Button styles */
+
+/* Default button style */
+.btn {
+  font-family: Aeonik, sans-serif;
+  line-height: 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn.compact {
+  padding: 12px;
+}
+
+.btn.default {
+  padding: 14px;
+}
+
+.btn.emphasized {
+  padding: 16px;
+}
+
+.btn.primary {
+  box-shadow: 0px 1px 3px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 2px 0px rgba(0, 0, 0, 0.10) inset;
+}
+
+.btn.secondary {
+  border: 1px solid #F0F2F5 !important;
+  background-color: #FFFFFF !important;
+  color: #363F51 !important ;
+  box-shadow: 0px 1px 3px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 2px 0px rgba(0, 0, 0, 0.10) inset;
+  stroke:black;
+}
+
+.btn.link {
+  background-color: transparent !important;
+  color: #2467E3 !important;
+}
+
+/* Button states */
+
+.btn.primary:hover {
+  background-color: #004CC5 !important;
+}
+
+.btn.primary:active {
+  transform: scale(0.98);
+}
+
+.btn.secondary:hover {
+  background-color: #F0F2F5 !important;
+}
+
+.btn.secondary:active {
+  transform: scale(0.98);
+}
+
+.btn.link:hover {
+  text-decoration: underline !important;
+  text-decoration-color: #004CC5;
+}
+
+.btn.link:active {
+  background-color: #E8F0FC !important;
+  transform: scale(0.98);
+}
+
+/* Disabled state styles */
+
+.btn:disabled {
+  background-color: #E1E4EB !important;
+  color: #A3ADC2 !important;
+  transform: none;
+}
+
+.btn:disabled:hover {
+  background-color: #E1E4EB !important;
+  color: #A3ADC2;
+  cursor: not-allowed;
+}
+
+.btn.link:disabled {
+  color: #A3ADC2 !important;
+  background-color: transparent !important;
+}
+
+.btn.link:disabled:hover {
+  color: #A3ADC2 !important;
+  cursor: not-allowed;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
